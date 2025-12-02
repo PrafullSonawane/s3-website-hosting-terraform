@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PFC Hotel — Non‑Veg Menu & Vlogs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">PFC <span class="tag">— Premium Food & Comfort</span></h1>
+      <nav class="nav">
+        <a href="#menu">Non‑Veg Menu</a>
+        <a href="#vlogs">Vlogs</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <h2>Welcome to PFC — Home of hearty non‑veg flavours</h2>
+      <p>Fresh, responsibly sourced ingredients prepared by our chefs. Explore the non‑veg menu and watch short vlogs about the benefits of including quality non‑veg protein in your diet.</p>
+      <a class="btn" href="#menu">See Menu & Rates</a>
+    </section>
+
+    <section id="menu" class="menu">
+      <h3>Non‑Veg Menu & Rates</h3>
+
+      <div class="menu-grid">
+        <article class="menu-item"><h4>Butter Chicken</h4><p class="desc">Creamy tomato-butter gravy.</p><p class="price">₹269</p></article>
+        <article class="menu-item"><h4>Chicken Biryani</h4><p class="desc">Aromatic Hyderabadi style.</p><p class="price">₹329</p></article>
+        <article class="menu-item"><h4>Prawn Curry</h4><p class="desc">Goan coconut-based curry.</p><p class="price">₹369</p></article>
+        <article class="menu-item"><h4>Lamb Chops</h4><p class="desc">Grilled & marinated.</p><p class="price">₹499</p></article>
+        <article class="menu-item"><h4>Pepper Chicken</h4><p class="desc">Spicy Chettinad style.</p><p class="price">₹289</p></article>
+        <article class="menu-item"><h4>Fish Fry</h4><p class="desc">Crispy coastal style.</p><p class="price">₹299</p></article>
+      </div>
+    </section>
+
+    <section id="vlogs" class="vlogs">
+      <h3>Vlogs — Non‑Veg Benefits</h3>
+      <div class="vlog-grid">
+        <article class="vlog-card"><h4>Protein Power</h4><p>Boost muscle & energy.</p><a href="#" class="watch">Watch</a></article>
+        <article class="vlog-card"><h4>Iron & B12</h4><p>Prevents deficiencies.</p><a href="#" class="watch">Watch</a></article>
+        <article class="vlog-card"><h4>Smart Meals</h4><p>Balanced plate tips.</p><a href="#" class="watch">Watch</a></article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h3>About PFC</h3>
+      <p>PFC serves fresh, hygienic and flavour‑rich non‑veg dishes prepared daily.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Contact</h3>
+      <p>Phone: +91‑98765‑43210</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>© <span id="year"></span> PFC Hotel</p></div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
