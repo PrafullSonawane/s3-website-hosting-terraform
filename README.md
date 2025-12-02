@@ -41,7 +41,7 @@ makes the website public.
 
 ## 📦 Resources Created by Terraform
 
-  Resource Type               Description
+  Resource Type               Descriptions
   --------------------------- -----------------------------------------
   S3 Bucket                   Stores website files
   Bucket Ownership Controls   Allows ACL-based uploads
